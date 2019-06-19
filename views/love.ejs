@@ -1,0 +1,10 @@
+
+<% include partials/header %>
+<h1> You fell in love with: <%= thingVar.toUpperCase()%> </h1>
+<% if(thingVar.toLowerCase()==="mayank"){ %>
+<p>Good choice ,Mayank is the best</p>
+<% }else{ %>
+    <p>You should have gone for Mayank</p>
+   <% } %>
+<% include partials/footer %>
+
